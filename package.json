@@ -1,0 +1,23 @@
+{
+  "name": "translator-cli",
+  "version": "1.0.0",
+  "description": "auto translator cli",
+  "main": "./bin/index.js",
+  "bin": {
+    "translate": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "Error no test script specified"
+  },
+  "keywords": [
+    "cli",
+    "translate"
+  ],
+  "author": "https://github.com/tintinkung",
+  "license": "MIT",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^7.0.0",
+    "colorette": "^2.0.16",
+    "inquirer": "^8.2.0"
+  }
+}
