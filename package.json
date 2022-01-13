@@ -1,5 +1,5 @@
 {
-  "name": "translator-cli",
+  "name": "@tintinkung/translator-cli",
   "version": "1.0.0",
   "description": "auto translator cli",
   "main": "./bin/index.js",
@@ -11,7 +11,8 @@
   },
   "keywords": [
     "cli",
-    "translate"
+    "translate",
+    "nodejs"
   ],
   "author": "https://github.com/tintinkung",
   "license": "MIT",
@@ -19,5 +20,13 @@
     "@vitalets/google-translate-api": "^7.0.0",
     "colorette": "^2.0.16",
     "inquirer": "^8.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tintinkung/translator-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tintinkung/translator-cli/issues"
+  },
+  "homepage": "https://github.com/tintinkung/translator-cli"
 }
